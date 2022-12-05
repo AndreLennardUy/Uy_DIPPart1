@@ -1,0 +1,17 @@
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\bin\Debug\net6.0-windows\Uy_DIPPart1.exe
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\bin\Debug\net6.0-windows\Uy_DIPPart1.deps.json
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\bin\Debug\net6.0-windows\Uy_DIPPart1.runtimeconfig.json
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\bin\Debug\net6.0-windows\Uy_DIPPart1.dll
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\bin\Debug\net6.0-windows\Uy_DIPPart1.pdb
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.csproj.AssemblyReference.cache
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.Form1.resources
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.csproj.GenerateResource.cache
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.AssemblyInfoInputs.cache
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.AssemblyInfo.cs
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.csproj.CoreCompileInputs.cache
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.dll
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\refint\Uy_DIPPart1.dll
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.pdb
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\Uy_DIPPart1.genruntimeconfig.cache
+C:\Users\Andre Uy\OneDrive - Cebu Institute of Technology University\3rd yr 1st Sem\Intelligent System\Uy_DIPPart1\Uy_DIPPart1\obj\Debug\net6.0-windows\ref\Uy_DIPPart1.dll
