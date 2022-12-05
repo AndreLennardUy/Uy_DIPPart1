@@ -23,5 +23,8 @@
 
 ![sepia](img/sepia.jpeg)
 
+- Subtract
+
+![subtract](img/subtract.jpeg)
 
 
