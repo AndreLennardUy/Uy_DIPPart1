@@ -5,7 +5,7 @@ namespace Uy_DIPPart1
 {
     public partial class Form1 : Form
     {
-        Bitmap loaded, processed;
+        Bitmap loaded, processed , bg , green;
         Color c;
         public Form1()
         {
@@ -30,11 +30,11 @@ namespace Uy_DIPPart1
 
         private void saveFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            int width = Convert.ToInt32(pictureBox2.Width);
-            int height = Convert.ToInt32(pictureBox2.Height);
+            int width = Convert.ToInt32(pictureBox3.Width);
+            int height = Convert.ToInt32(pictureBox3.Height);
             using (Bitmap bmp = new Bitmap(width, height))
             {
-                pictureBox2.DrawToBitmap(bmp, new Rectangle(0, 0, width, height));
+                pictureBox3.DrawToBitmap(bmp, new Rectangle(0, 0, width, height));
                 bmp.Save(saveFileDialog1.FileName, ImageFormat.Jpeg);
                 label1.Text = "Image saved";
             }
@@ -54,7 +54,7 @@ namespace Uy_DIPPart1
                 }
             }
 
-            pictureBox2.Image = processed;
+            pictureBox3.Image = processed;
         }
 
         private void colorInversionToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace Uy_DIPPart1
                 }
             }
 
-            pictureBox2.Image = processed;
+            pictureBox3.Image = processed;
         }
 
         private void histrogramToolStripMenuItem_Click(object sender, EventArgs e)
@@ -112,7 +112,7 @@ namespace Uy_DIPPart1
                 }
             }
 
-            pictureBox2.Image = histImage;
+            pictureBox3.Image = histImage;
         }
 
         private void sepiaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -134,7 +134,7 @@ namespace Uy_DIPPart1
                 }
             }
 
-            pictureBox2.Image = processed;
+            pictureBox3.Image = processed;
         }
 
         private void horizontalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -150,7 +150,7 @@ namespace Uy_DIPPart1
                 }
             }
 
-            pictureBox2.Image = processed;
+            pictureBox3.Image = processed;
         }
 
         private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -166,13 +166,65 @@ namespace Uy_DIPPart1
                 }
             }
 
-            pictureBox2.Image = processed;
+            pictureBox3.Image = processed;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openFileDialog3.ShowDialog();
+        }
+
+        private void openFileDialog2_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            bg = new Bitmap(openFileDialog2.FileName);
+            pictureBox2.Image = bg;
+        }
+
+        private void openFileDialog3_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            green = new Bitmap(openFileDialog3.FileName);
+            pictureBox1.Image = green;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            openFileDialog2.ShowDialog();
+        }
+
+        private void subtractToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bitmap resultImage = new Bitmap(bg.Width, bg.Height);
+
+            Color mygreen = Color.FromArgb(53, 255, 33);
+            int greygreen = (mygreen.R + mygreen.G + mygreen.B) / 3;
+            int threshold = 5;
+            
+            for (int x = 0; x < green.Width; x++)
+            {
+                for (int y = 0; y < green.Height; y++)
+                {
+                    Color pixel = green.GetPixel(x, y);
+                    Color backpixel = bg.GetPixel(x, y);
+                    int grey = (pixel.R + pixel.G + pixel.B) / 3;
+                    int subtractValue = Math.Abs(grey - greygreen);
+                    if (subtractValue < threshold)
+                    {
+                        resultImage.SetPixel(x, y, backpixel);
+                    }
+                    else
+                    {
+                        resultImage.SetPixel(x, y, pixel);
+                    }
+                }
+            }
+
+            pictureBox3.Image = resultImage;
+        }   
 
         private void basicCopyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             processed = loaded;
-            pictureBox2.Image = processed;
+            pictureBox3.Image = processed;
         }
     }
 }
